@@ -1,0 +1,21 @@
+First version:
+
+    Board:
+    The game board is a 3X3 matrix with empty cells. ✅
+
+    Players:
+    There's only two players in the game. ✅
+    First player will always be "X", and second player "O". ✅
+    Players take turns for filling the empty cells in the board. ✅
+    A player can only use "X" or "O" but never the two of them. ✅
+
+    Movements:
+    Players can only fill empty cells inside the matrix. ✅
+        fill a not empty cell => not allowed
+        fill a cell outside the board => not allowed
+        use the previous player playerChar => not allowed
+    First player who gets three in a row, win the game. ✅
+    If no player wins the game until the board is full, the game is draw. ✅
+
+
+
